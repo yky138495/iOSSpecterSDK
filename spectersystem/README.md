@@ -6,3 +6,5 @@
 ![应用管理](/spectersystem/应用管理.png)
     * 新增应用
 ![新增应用](/spectersystem/新增应用.png)
+    * 获取App Key
+    ![](/spectersystem/appkey.png)
