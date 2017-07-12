@@ -1,5 +1,5 @@
-# iOSSpecterSDK
-iOS Specter SDK开发指南
+# iOS Specter SDK
+> 在 iOS App 中集成 Specter SDK，使用 Specter 采集并分析用户行为
 
 # 集成Specter SDK到App项目
 
