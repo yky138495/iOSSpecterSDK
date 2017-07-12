@@ -7,4 +7,4 @@
     * 新增应用
 ![新增应用](/spectersystem/新增应用.png)
     * 获取App Key
-    ![](/spectersystem/appkey.png)
+![appkey](/spectersystem/appkey.png)
