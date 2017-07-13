@@ -3,7 +3,7 @@
 > 如下代码所示：
 
 
-```javascript
+```swift
 
 #import "Specter/Specter.h"
 
