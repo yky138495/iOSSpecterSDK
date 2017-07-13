@@ -9,5 +9,3 @@
 
 ```
 
-Objective-C
-
