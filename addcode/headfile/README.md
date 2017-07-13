@@ -3,7 +3,7 @@
 > 如下代码所示：
 
 
-```OC
+```Objective-C
 
 #import "Specter/Specter.h"
 
