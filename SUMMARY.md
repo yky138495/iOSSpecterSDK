@@ -6,7 +6,7 @@
     * [配置库和头文件](addsdklibrary/staticlib/staticlibrary.md)
   * [引入动态库SDK](addsdklibrary/framework/README.md)
     * [配置framework文件](addsdklibrary/framework/framework.md)
-
+  * [代码集成功能](addcode/README.md)
 
 
 
