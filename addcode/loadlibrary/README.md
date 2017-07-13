@@ -5,7 +5,9 @@
 
 
 ```swift
-    Specter *specter = [Specter sharedInstanceWithToken:@" YourSpecterToken"];                       Specter *specter = [Specter sharedInstanceWithToken:@" YourSpecterToken" launchOptions:launchOptions];
+    1. Specter *specter = [Specter sharedInstanceWithToken:@" YourSpecterToken"];
+                       
+    2. Specter *specter = [Specter sharedInstanceWithToken:@" YourSpecterToken" launchOptions:launchOptions];
 
 ```
 
