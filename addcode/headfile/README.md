@@ -3,7 +3,8 @@
 > 如下代码所示：
 
 
-``` oc
+```OC
+
 #import "Specter/Specter.h"
 
 ```
