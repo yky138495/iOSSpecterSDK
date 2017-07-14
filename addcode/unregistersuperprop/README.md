@@ -1,13 +1,12 @@
-# 初始化Library(常用)
+# 注销超级属性
 
-> 首先在登陆幽灵分析平台上注册您的APP，并由此得到一个唯一的APP key，比如是 YourSpecterToken。示例如下：
+> 当您不需要某些超级属性了，可以调用unregisterSuperProperties 注销掉。示例如下：
 
 
 
 ```swift
-    1. Specter *specter = [Specter sharedInstanceWithToken:@" YourSpecterToken"];
-                       
-    2. Specter *specter = [Specter sharedInstanceWithToken:@" YourSpecterToken" launchOptions:launchOptions];
-
+    [specter unregisterSuperProperties:@{
+        @"source": @"ad-01"
+    }];
 ```
 
