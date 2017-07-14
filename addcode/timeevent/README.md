@@ -1,13 +1,13 @@
-# 初始化Library(常用)
+# 计时事件(常用)
 
-> 首先在登陆幽灵分析平台上注册您的APP，并由此得到一个唯一的APP key，比如是 YourSpecterToken。示例如下：
+> 您可以跟踪一个动作发生的时间,比如一个图像上传或评论文章,使用timeEvent: 这将标志着“开始”你的行动,你就可以完成跟踪回调。然后时间被记录在“持续时间”属性。示例如下：
 
 
 
 ```swift
-    1. Specter *specter = [Specter sharedInstanceWithToken:@" YourSpecterToken"];
-                       
-    2. Specter *specter = [Specter sharedInstanceWithToken:@" YourSpecterToken" launchOptions:launchOptions];
+
+    [specter timeEvent:@"Image Upload"];
+    [self uploadImageWithSuccessHandler:^{			[specter track:@"eventName"];		}];
 
 ```
 
