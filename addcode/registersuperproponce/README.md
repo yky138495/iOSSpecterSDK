@@ -1,13 +1,12 @@
-# 初始化Library(常用)
+# 一次性设置超级属性
 
-> 首先在登陆幽灵分析平台上注册您的APP，并由此得到一个唯一的APP key，比如是 YourSpecterToken。示例如下：
+> 如果您想存储超级属性只有一次(经常像广告或源)，你可以使用registersuperpropertiesonce：。这个函数的行为像registersuperproperties：具有相同的接口，但不能重写你已经保存的超级属性。示例如下：
 
 
-
-```swift
-    1. Specter *specter = [Specter sharedInstanceWithToken:@" YourSpecterToken"];
-                       
-    2. Specter *specter = [Specter sharedInstanceWithToken:@" YourSpecterToken" launchOptions:launchOptions];
-
+> ```swift
+    [specter registerSuperPropertiesOnce:@{
+        @"source": @"ad-01"
+    }];
 ```
 
+> 这意味着，调用registersuperpropertiesonce是安全的：对每一个应用程序的负载相同的属性，它只会把它当超级属性不存在。
