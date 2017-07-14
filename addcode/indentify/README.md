@@ -7,3 +7,4 @@
     [specter identify:@"CURRENT USER DISTINCT ID"];
 ```
 
+> 注意：调用 identify:一个新的ID将改变存储设备上的distinctid。用户配置文件的更新到设备的队列中，直到识别被调用
