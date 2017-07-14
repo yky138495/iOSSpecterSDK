@@ -1,13 +1,12 @@
-# 初始化Library(常用)
+# 递增的数字属性
 
-> 首先在登陆幽灵分析平台上注册您的APP，并由此得到一个唯一的APP key，比如是 YourSpecterToken。示例如下：
-
-
+> 这是有用的，当你想保持一个运行记录的东西，如玩游戏，发送邮件，或赚取点。可以使用people increment：改变数字属性的当前值。示例如下：
 
 ```swift
-    1. Specter *specter = [Specter sharedInstanceWithToken:@" YourSpecterToken"];
-                       
-    2. Specter *specter = [Specter sharedInstanceWithToken:@" YourSpecterToken" launchOptions:launchOptions];
-
+    [specter.people increment:@"point count" by:@500];	
+    [specter.people increment:@{
+        @"dollars spent":@17,
+        @"credits remaining":@-34
+    }];
 ```
 
