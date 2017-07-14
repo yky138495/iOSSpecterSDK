@@ -1,13 +1,5 @@
-# 初始化Library(常用)
+# 存储用户配置文件
 
-> 首先在登陆幽灵分析平台上注册您的APP，并由此得到一个唯一的APP key，比如是 YourSpecterToken。示例如下：
-
-
-
-```swift
-    1. Specter *specter = [Specter sharedInstanceWithToken:@" YourSpecterToken"];
-                       
-    2. Specter *specter = [Specter sharedInstanceWithToken:@" YourSpecterToken" launchOptions:launchOptions];
-
-```
+> 除了的事件，你可以存储用户配置文件在Specter的人分析产品。配置文件是描述用户的东西如姓名、电子邮件地址和注册日期设置性能持久。
+> 您可以使用概要文件来探索和细分用户，而不是他们做了什么。您还可以使用配置文件发送通知，如电子邮件、SMS或推送通知
 
