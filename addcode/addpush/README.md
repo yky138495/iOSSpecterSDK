@@ -1,13 +1,14 @@
-# 初始化Library(常用)
+# 注册推送通知
 
-> 首先在登陆幽灵分析平台上注册您的APP，并由此得到一个唯一的APP key，比如是 YourSpecterToken。示例如下：
+> Specer Library包括发送推送通知设备令牌Specter的支持。一旦你发送装置的标记，您可以使用Specter发送推送通知到你的应用程序。示例如下：
 
 
 
 ```swift
-    1. Specter *specter = [Specter sharedInstanceWithToken:@" YourSpecterToken"];
-                       
-    2. Specter *specter = [Specter sharedInstanceWithToken:@" YourSpecterToken" launchOptions:launchOptions];
-
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken: (NSData *)deviceToken {
+    Specter *specter = [Specter sharedInstance];
+    [specter identify:@"13793"];
+    [specter.people addPushDeviceToken:deviceToken];
+ }
 ```
 
