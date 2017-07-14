@@ -17,7 +17,7 @@
     * [注销超级属性](addcode/unregistersuperprop/README.md)
     * [清除所有超级属性](addcode/clearsuperprop/README.md)
     * [管理用户身份](addcode/indentify/README.md)
-    * [用户身份别名](addcode/createAlias/README.md)
+    * [用户身份别名](addcode/createalias/README.md)
     * [存储用户配置文件](addcode/people/README.md)
       1. [设置文件属性](addcode/people/set/README.md)
       2. [递增的数字属性](addcode/people/increment/README.md)
