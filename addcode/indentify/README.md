@@ -1,13 +1,9 @@
-# 初始化Library(常用)
+# 管理用户身份
 
-> 首先在登陆幽灵分析平台上注册您的APP，并由此得到一个唯一的APP key，比如是 YourSpecterToken。示例如下：
-
+> Specter Liabrary将分配一个默认的唯一标识符（我们叫它“独特的ID”）每一个独特的用户安装你的应用。这个不同的ID被保存到设备存储，以便它将跨会话持久化。如果您选择，您可以指定自己的用户ID。如果用户在多个设备或平台上使用应用程序（例如Web和移动），这一点尤其有用。附上你自己的distinct_ids，可以使用identify:。示例如下：
 
 
 ```swift
-    1. Specter *specter = [Specter sharedInstanceWithToken:@" YourSpecterToken"];
-                       
-    2. Specter *specter = [Specter sharedInstanceWithToken:@" YourSpecterToken" launchOptions:launchOptions];
-
+    [specter identify:@"CURRENT USER DISTINCT ID"];
 ```
 
