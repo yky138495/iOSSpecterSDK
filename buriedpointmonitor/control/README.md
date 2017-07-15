@@ -10,4 +10,7 @@
     * action：动作的名称
     * 当前页面的标题路径
     
- * 圈选控件字段
+ * 圈选控件字段
+    * current_url：当前页面的标题路径
+    * event_name：事件名称
+    * control_event：控件的事件值，为64
