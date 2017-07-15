@@ -15,3 +15,5 @@
     * current_url：当前页面的标题路径
     * event_name：事件名称
     * control_event：控件的事件值，为64
+    * path: 圈选控件的path值，生成path的条件如下：
+       1. IsViewVisible：判断控件在当前界面是否可见
