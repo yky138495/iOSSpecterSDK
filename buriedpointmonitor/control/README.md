@@ -20,5 +20,5 @@
        2. UserInteractionEnabled：判断控件是否开启交互功能
        3. 对于控件类型为UIPickerView不生成path，即不能圈选
        
-       只有i和ii两个条件均成功，才能圈选，即生成path
+       只有i和ii两个条件均成功，才能圈选，即生成path。
     ***
