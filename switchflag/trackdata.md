@@ -3,7 +3,18 @@
 
 
 ``` swift
-
+NSDictionary *config = object[@"report_config"];
+                if (config && [config isKindOfClass:NSDictionary.class]) {
+                    
+                    NSNumber *reportFlag = config[@"report_flag"];
+                    if (reportFlag && [reportFlag isKindOfClass:[NSNumber class]]) {
+                        if (reportFlag.integerValue == 1) {
+                            self.validationEnabled = YES;
+                        }
+                        else {
+                            self.validationEnabled = NO;
+                        }
+                    }
 
 ```
 
