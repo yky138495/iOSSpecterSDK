@@ -16,7 +16,7 @@
     * event_name：事件名称
     * control_event：控件的事件值，为64
     * path: 圈选控件的path值，生成path的条件如下：
-       1. IsViewVisible：判断控件在当前界面是否可见
+       > 1. IsViewVisible：判断控件在当前界面是否可见
        2. UserInteractionEnabled：判断控件是否开启交互功能
        3. 对于控件类型为UIPickerView不生成path，即不能圈选
        
