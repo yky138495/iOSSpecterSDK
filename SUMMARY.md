@@ -27,3 +27,5 @@
     * [上报标识开关](switchflag/trackdata.md)
     * [摇一摇标识开关](switchflag/shake.md)
   * [SDK相关url描述](sdkurl/README.md)
+  * [事件名称定义](eventname/README.md)
+  * [圈选控件生成算法](selectcontrol/README.md)
