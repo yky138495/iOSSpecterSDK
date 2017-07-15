@@ -20,7 +20,7 @@ if (config && [config isKindOfClass:NSDictionary.class]) {
 > 2. 全埋点事件
 > 3. 可视化埋点事件
 
-> 全埋点事件包括：
+> SDK默认事件包括：
 > 1. 第一次打开App的上报事件
 > 2. 页面停留时间事件
 > 3. App崩溃事件
