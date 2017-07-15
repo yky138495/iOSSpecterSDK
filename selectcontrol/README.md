@@ -1,12 +1,13 @@
-# SDK中相关URL描述
+# 圈选控件生成算法
 
-1. 事件上报URL
-> https网络协议
+1. 不支持圈选的控件
 
-    https://report.niwodai.com/collector 
+> UIPickerView控件
+> UITextView控件
+
     
-2. 可视化埋点URL
-> websocket网络协议
+2. 特殊控件(UITabBar)的处理
 
-    wss://codeless.niwodai.com/websocket
+> 
+> SDK中圈选逻辑中，仅仅使用path作为唯一关键字；而且其他控件使用path+current_url作为唯一关键字
     
