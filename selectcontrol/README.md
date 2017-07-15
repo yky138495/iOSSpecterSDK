@@ -11,3 +11,9 @@
     > 1. 当动态出现控件时，一般设置specterViewId或者tag，当然具有title的控件也可以使用title;
     > 2. 如果specterViewId、tag、控件的标题都不存在时，这个时候就要获取控件对象所在的索引值，但是获取索引时，系统给的subviews数组不是按照控件对象的位置排序的，这时，就要根据同类型控件对象的x和y进行升序排序;
     > 3. current_url 目前版本中使用当前界面的类名代替.
+    
+4. 支持的控件范围
+    > UIControl类
+    > UITextField
+    > UITableView
+    > UICollectionView
