@@ -23,5 +23,5 @@
       2. [递增的数字属性](addcode/people/increment/README.md)
     * [跟踪收入](addcode/trackcharge/README.md)
     * [注册推送通知](addcode/addpush/README.md)
-  * [各种开关标识](switchflag//README.md)
+  * [各种开关标识](switchflag/README.md)
 
