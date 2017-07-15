@@ -26,4 +26,4 @@
   * [各种开关标识](switchflag/README.md)
     * [上报标识开关](switchflag/trackdata.md)
     * [摇一摇标识开关](switchflag/shake.md)
-  * [相关url描述](sdkurl/REAME.md)
+  * [相关url描述](sdkurl/README.md)
