@@ -1,12 +1,6 @@
 # SDK中相关URL描述
 
-1. 事件上报URL
-> https网络协议
-
-    https://report.niwodai.com/collector 
-    
-2. 可视化埋点URL
-> websocket网络协议
-
-    wss://codeless.niwodai.com/websocket
-    
+1. 圈选控件名称
+> 一般都是在幽灵分析系统中的可视化界面中编写名称，称为`自定义名称`
+> 没有圈选控件时，名称为`自动控件埋点名称`
+> 圈选控件后，名称为`自定义名称`
