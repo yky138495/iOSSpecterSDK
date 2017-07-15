@@ -24,5 +24,5 @@
     * [跟踪收入](addcode/trackcharge/README.md)
     * [注册推送通知](addcode/addpush/README.md)
   * [各种开关标识](switchflag/README.md)
-    * [上报开关](switchflag/trackdata.md)
-    * [摇一摇开关](switchflag/shake.md)
+    * [上报标识开关](switchflag/trackdata.md)
+    * [摇一摇标识开关](switchflag/shake.md)
