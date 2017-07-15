@@ -9,11 +9,3 @@
     * position_y：触摸位置的Y坐标
     * action：动作的名称
     * 当前页面的标题路径
-
-
-2. 可视化控件埋点名称
-> ios_event_uicontrol(具体还要视子控件类型)
-> ios_event_uitextfield
-> ios_event_uitableview
-> ios_event_uicollectionview
-> ios_event_uiwebview
