@@ -31,4 +31,4 @@
   * [圈选控件生成算法](selectcontrol/README.md)
   * [埋点监控描述](buriedpointmonitor/README.md)
     * [控件型](buriedpointmonitor/control/trackdata.md)
-    * [非控件型](switchflag/shake.md)
+    * [非控件型](buriedpointmonitor/uncontrol/shake.md)
