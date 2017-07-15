@@ -1,7 +1,8 @@
 # SDK中相关URL描述
-> 上报数据只有打开时，才能向幽灵系统上报数据，否则不能上报任何数据；
-> 上报数据也具有不同的模式：全埋点模式和可视化埋点模式。
 
-
-# 摇一摇标识开关
-> 该标识为了控制限制哪些安装包具有可视化埋点的功能，在集成App时可以设置该开关。
+1. 事件上报URL
+    https://report.niwodai.com/collector 
+    
+2. 可视化埋点URL
+    wss://codeless.niwodai.com/websocket
+    
