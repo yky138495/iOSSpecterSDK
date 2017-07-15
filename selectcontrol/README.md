@@ -13,7 +13,7 @@
     > 3. current_url 目前版本中使用当前界面的类名代替.
     
 4. 支持的控件范围
-    > UIControl类
-    > UITextField
-    > UITableView
-    > UICollectionView
+    > 1. UIControl类
+    > 2. UITextField
+    > 3. UITableView
+    > 4. UICollectionView
