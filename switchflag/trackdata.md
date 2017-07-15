@@ -29,11 +29,6 @@ if (config && [config isKindOfClass:NSDictionary.class]) {
 二、上报模式
 也是通过decide通信接口中获取，开关字段为：`report_flag`，代码如下：
 
-> 1. 全埋点模式
-> 2. 可视化埋点模式。
-
-
-
 ```swift
 NSNumber *reportPattern = config[@"report_pattern"];
 if (reportPattern && [reportPattern isKindOfClass:NSNumber.class]) {
@@ -42,7 +37,13 @@ if (reportPattern && [reportPattern isKindOfClass:NSNumber.class]) {
     } else {
         self.validationMode = AutomaticEventModeAll;
     }
-}
-                
+}                
+
+> 分为以下两种模式：
+> 1. 全埋点模式
+> 2. 可视化埋点模式。
+
+
+
 ```
 
