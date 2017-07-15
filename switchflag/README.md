@@ -1,10 +1,7 @@
-# 创建应用获取AppKey
-首先进入幽灵分析系统，网址：http://datamart.niwodai.net/specter-web
+# 上报标识开关
+> 上报数据只有打开时，才能向幽灵系统上报数据，否则不能上报任何数据；
+> 上报数据也具有不同的模式：全埋点模式和可视化埋点模式。
 
-具体操作如下：
-    * 系统权限->应用管理
-![应用管理](/spectersystem/应用管理.png)
-    * 新增应用
-![新增应用](/spectersystem/新增应用.png)
-    * 获取App Key
-![appkey](/spectersystem/appkey.png)
+
+# 摇一摇标识开关
+> 该标识为了控制限制哪些安装包具有可视化埋点的功能，在集成App时可以设置该开关。
