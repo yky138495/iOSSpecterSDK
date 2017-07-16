@@ -23,3 +23,6 @@
        只有i和ii两个条件均成功，才能圈选，即生成path。
     * event_type：ui_control
     ***
+    
+2. 文本输入框控件UITextField
+ 
