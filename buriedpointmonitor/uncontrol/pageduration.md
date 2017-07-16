@@ -1,6 +1,7 @@
 # 非控件类型的埋点监控描述一
 
 1. 页面停留事件
+
  * 上报的字段名称
     * event_name：事件名称，$page_duration
     * event_type：事件类型为page_duration
