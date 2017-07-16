@@ -1,4 +1,4 @@
-# [引入静态库SDK](staticlib/importlib.md)
+# [引入静态库SDK](/staticlib/importlib.md)
 
 > 库名称：libSpecter.a， 支持iOS 7.0以上系统  
 > 需要libSpecter.a库、SpecterBundle.bundle和对应的.h文件
