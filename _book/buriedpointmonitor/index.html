@@ -1,0 +1,836 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>埋点监控描述 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="control/" />
+    
+    
+    <link rel="prev" href="../selectcontrol/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    集成Specter SDK
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="../spectersystem/">
+            
+                <a href="../spectersystem/">
+            
+                    
+                    幽灵分析系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="../addsdklibrary/staticlib/">
+            
+                <a href="../addsdklibrary/staticlib/">
+            
+                    
+                    引入静态库SDK
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.1" data-path="../addsdklibrary/staticlib/importlib.html">
+            
+                <a href="../addsdklibrary/staticlib/importlib.html">
+            
+                    
+                    导入静态库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.2" data-path="../addsdklibrary/staticlib/configlib.html">
+            
+                <a href="../addsdklibrary/staticlib/configlib.html">
+            
+                    
+                    配置库文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.3" data-path="../addsdklibrary/staticlib/configheader.html">
+            
+                <a href="../addsdklibrary/staticlib/configheader.html">
+            
+                    
+                    配置头文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="../addsdklibrary/framework/">
+            
+                <a href="../addsdklibrary/framework/">
+            
+                    
+                    引入动态库SDK
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.3.1" data-path="../addsdklibrary/framework/framework.html">
+            
+                <a href="../addsdklibrary/framework/framework.html">
+            
+                    
+                    配置framework文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4" data-path="../addcode/">
+            
+                <a href="../addcode/">
+            
+                    
+                    代码集成功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.4.1" data-path="../addcode/headfile/">
+            
+                <a href="../addcode/headfile/">
+            
+                    
+                    引入头文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.2" data-path="../addcode/loadlibrary/">
+            
+                <a href="../addcode/loadlibrary/">
+            
+                    
+                    初始化Library(常用)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.3" data-path="../addcode/trackevent/">
+            
+                <a href="../addcode/trackevent/">
+            
+                    
+                    上报事件(常用)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.4" data-path="../addcode/timeevent/">
+            
+                <a href="../addcode/timeevent/">
+            
+                    
+                    计时事件(常用)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.5" data-path="../addcode/cleartimerevents/">
+            
+                <a href="../addcode/cleartimerevents/">
+            
+                    
+                    清除所有计时事件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.6" data-path="../addcode/registersuperprop/">
+            
+                <a href="../addcode/registersuperprop/">
+            
+                    
+                    注册超级属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.7" data-path="../addcode/registersuperproponce/">
+            
+                <a href="../addcode/registersuperproponce/">
+            
+                    
+                    一次性设置超级属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.8" data-path="../addcode/unregistersuperprop/">
+            
+                <a href="../addcode/unregistersuperprop/">
+            
+                    
+                    注销超级属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.9" data-path="../addcode/clearsuperprop/">
+            
+                <a href="../addcode/clearsuperprop/">
+            
+                    
+                    清除所有超级属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.10" data-path="../addcode/indentify/">
+            
+                <a href="../addcode/indentify/">
+            
+                    
+                    管理用户身份
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.11" data-path="../addcode/createalias/">
+            
+                <a href="../addcode/createalias/">
+            
+                    
+                    用户身份别名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.12" data-path="../addcode/people/">
+            
+                <a href="../addcode/people/">
+            
+                    
+                    存储用户配置文件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.4.12.1" data-path="../addcode/people/set/">
+            
+                <a href="../addcode/people/set/">
+            
+                    
+                    设置文件属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.12.2" data-path="../addcode/people/increment/">
+            
+                <a href="../addcode/people/increment/">
+            
+                    
+                    递增的数字属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.13" data-path="../addcode/trackcharge/">
+            
+                <a href="../addcode/trackcharge/">
+            
+                    
+                    跟踪收入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.14" data-path="../addcode/addpush/">
+            
+                <a href="../addcode/addpush/">
+            
+                    
+                    注册推送通知
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5" data-path="../switchflag/">
+            
+                <a href="../switchflag/">
+            
+                    
+                    各种开关标识
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.5.1" data-path="../switchflag/trackdata.html">
+            
+                <a href="../switchflag/trackdata.html">
+            
+                    
+                    上报标识开关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5.2" data-path="../switchflag/shake.html">
+            
+                <a href="../switchflag/shake.html">
+            
+                    
+                    摇一摇标识开关
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.6" data-path="../sdkurl/">
+            
+                <a href="../sdkurl/">
+            
+                    
+                    SDK相关url描述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.7" data-path="../eventname/">
+            
+                <a href="../eventname/">
+            
+                    
+                    事件名称定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.8" data-path="../selectcontrol/">
+            
+                <a href="../selectcontrol/">
+            
+                    
+                    圈选控件生成算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.1.9" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    埋点监控描述
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.9.1" data-path="control/">
+            
+                <a href="control/">
+            
+                    
+                    控件型
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.9.1.1" data-path="control/uicontrol.html">
+            
+                <a href="control/uicontrol.html">
+            
+                    
+                    普通触摸控件UIControl
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.9.1.2" data-path="control/uitextfield.html">
+            
+                <a href="control/uitextfield.html">
+            
+                    
+                    文本输入框控件UITextField
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.9.1.3" data-path="control/uitableview.html">
+            
+                <a href="control/uitableview.html">
+            
+                    
+                    表格控件UITableView
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.9.1.4" data-path="control/uicollectionview.html">
+            
+                <a href="control/uicollectionview.html">
+            
+                    
+                    集合控件UICollectionView
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.9.1.5" data-path="control/uiwebview.html">
+            
+                <a href="control/uiwebview.html">
+            
+                    
+                    网页控件UIWebView(不能圈选)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.9.2" data-path="uncontrol/">
+            
+                <a href="uncontrol/">
+            
+                    
+                    非控件型
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.9.2.1" data-path="uncontrol/pageduration.html">
+            
+                <a href="uncontrol/pageduration.html">
+            
+                    
+                    页面停留事件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.9.2.2" data-path="uncontrol/autoevent.html">
+            
+                <a href="uncontrol/autoevent.html">
+            
+                    
+                    自动埋点事件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.9.2.3" data-path="uncontrol/firstopenapp.html">
+            
+                <a href="uncontrol/firstopenapp.html">
+            
+                    
+                    首次启动App事件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.9.2.4" data-path="uncontrol/exceptionevent.html">
+            
+                <a href="uncontrol/exceptionevent.html">
+            
+                    
+                    App崩溃事件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >埋点监控描述</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x4E8B;&#x4EF6;&#x540D;&#x79F0;&#x7684;&#x5B9A;&#x4E49;">&#x4E8B;&#x4EF6;&#x540D;&#x79F0;&#x7684;&#x5B9A;&#x4E49;</h1>
+<ol>
+<li><p><a href="control/">&#x63A7;&#x4EF6;&#x7C7B;&#x578B;</a></p>
+</li>
+<li><p><a href="uncontrol/">&#x975E;&#x63A7;&#x4EF6;&#x7C7B;&#x578B;</a></p>
+</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../selectcontrol/" class="navigation navigation-prev " aria-label="Previous page: 圈选控件生成算法">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="control/" class="navigation navigation-next " aria-label="Next page: 控件型">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"埋点监控描述","level":"1.1.9","depth":2,"next":{"title":"控件型","level":"1.1.9.1","depth":3,"path":"buriedpointmonitor/control/README.md","ref":"buriedpointmonitor/control/README.md","articles":[{"title":"普通触摸控件UIControl","level":"1.1.9.1.1","depth":4,"path":"buriedpointmonitor/control/uicontrol.md","ref":"buriedpointmonitor/control/uicontrol.md","articles":[]},{"title":"文本输入框控件UITextField","level":"1.1.9.1.2","depth":4,"path":"buriedpointmonitor/control/uitextfield.md","ref":"buriedpointmonitor/control/uitextfield.md","articles":[]},{"title":"表格控件UITableView","level":"1.1.9.1.3","depth":4,"path":"buriedpointmonitor/control/uitableview.md","ref":"buriedpointmonitor/control/uitableview.md","articles":[]},{"title":"集合控件UICollectionView","level":"1.1.9.1.4","depth":4,"path":"buriedpointmonitor/control/uicollectionview.md","ref":"buriedpointmonitor/control/uicollectionview.md","articles":[]},{"title":"网页控件UIWebView(不能圈选)","level":"1.1.9.1.5","depth":4,"path":"buriedpointmonitor/control/uiwebview.md","ref":"buriedpointmonitor/control/uiwebview.md","articles":[]}]},"previous":{"title":"圈选控件生成算法","level":"1.1.8","depth":2,"path":"selectcontrol/README.md","ref":"selectcontrol/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"buriedpointmonitor/README.md","mtime":"2017-07-15T15:18:41.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-16T15:08:22.175Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
