@@ -8,6 +8,7 @@
     * table_delegate：表格控件的代理类
     * cell_section：表格控件的区块索引
     * cell_index：表格控件的行索引
+    * current_url：当前页面的标题路径
     *** 
     
  * 圈选控件字段
