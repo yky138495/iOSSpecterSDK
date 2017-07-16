@@ -2,7 +2,7 @@
 
 * [介绍](instroduction/README.md)
 
-* [集成Specter SDK](README.md)
+* [集成Specter SDK](specterfunction/README.md)
   * [幽灵分析系统](spectersystem/README.md)
   * [引入静态库SDK](addsdklibrary/staticlib/README.md)
     * [导入静态库](addsdklibrary/staticlib/importlib.md)
