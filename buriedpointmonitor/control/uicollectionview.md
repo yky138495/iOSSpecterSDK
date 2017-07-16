@@ -22,4 +22,4 @@
     * event_type：ui_collectionview
     ***
     
- 
+ * 注意：对于UICollectionView控件只能圈选整个集合控件，不能圈选里面的UICollectionViewCell块控件。
