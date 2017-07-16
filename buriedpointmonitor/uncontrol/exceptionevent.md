@@ -1,6 +1,6 @@
 # 非控件类型的埋点监控描述四
 
-4. App崩溃事件
+4.App崩溃事件
 
  * 上报的字段名称
     * event_name：事件名称，$exception_event
