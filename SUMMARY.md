@@ -37,3 +37,7 @@
       * 4.[集合控件UICollectionView](buriedpointmonitor/control/uicollectionview.md)
       * 5.[网页控件UIWebView(不能圈选)](buriedpointmonitor/control/uiwebview.md)
     * [非控件型](buriedpointmonitor/uncontrol/README.md)
+      * 1.[页面停留事件](buriedpointmonitor/uncontrol/pageduration.md)
+      * 2.[自动埋点事件](buriedpointmonitor/uncontrol/autoevent.md)
+      * 3.[首次启动App事件](buriedpointmonitor/uncontrol/firstopenapp.md)
+      * 4.[App崩溃事件](buriedpointmonitor/uncontrol/exceptionevent.md)
