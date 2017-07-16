@@ -6,8 +6,8 @@
 > 圈选控件完成时，名称称之为`自定义名称`
 
 2. 可视化控件埋点名称
-> ios_event_uicontrol(具体还要视子控件类型)
-> ios_event_uitextfield
-> ios_event_uitableview
-> ios_event_uicollectionview
-> ios_event_uiwebview
+> 1. ios_event_uicontrol(具体还要视子控件类型)
+> 2. ios_event_uitextfield
+> 3. ios_event_uitableview
+> 4. ios_event_uicollectionview
+> 5. ios_event_uiwebview
