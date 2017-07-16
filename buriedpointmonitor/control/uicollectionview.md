@@ -19,7 +19,7 @@
        > 2. UserInteractionEnabled：判断控件是否开启交互功能
        
        只有i和ii两个条件均成功，才能圈选，即生成path。
-    * event_type：ui_control
+    * event_type：ui_collectionview
     ***
     
  
