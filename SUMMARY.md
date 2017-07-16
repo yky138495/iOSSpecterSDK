@@ -1,6 +1,6 @@
 # 目录
 
-* [Introduction](instroduction/README.md)
+* [介绍](instroduction/README.md)
 
 * [集成Specter SDK](README.md)
   * [幽灵分析系统](spectersystem/README.md)
