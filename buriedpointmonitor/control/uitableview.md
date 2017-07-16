@@ -23,6 +23,6 @@
     * event_type：ui_tableview
     ***
     
- * 注意：对于UITableView控件只能圈选整个表格控件，不能圈选里面的UITableViewCell行控件。
+ * 注意：对于UITableView控件只能圈选整个表格控件，不能圈选里面的UITableViewCell子控件。
 
  
