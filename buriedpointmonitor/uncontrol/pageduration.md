@@ -6,4 +6,3 @@
     * event_type：事件类型为page_duration
     * page_duration：页面停留时间
     * page_class：页面的类名称
-    * 当前页面的标题路径
