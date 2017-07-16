@@ -8,7 +8,7 @@
     * position_x：触摸位置的X坐标
     * position_y：触摸位置的Y坐标
     * action：动作的名称
-    * 当前页面的标题路径
+    * urrent_url：当前页面的标题路径
     *** 
     
  * 圈选控件字段
