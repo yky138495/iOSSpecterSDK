@@ -5,8 +5,8 @@
     * event_name：事件名称，sdk默认为ios_event_uiwebview
     * event_type：ui_webview
     * webview_loadstate：有三种状态值：start/finished/failure
-    * position_y：触摸位置的Y坐标
-    * action：动作的名称
+    * webview_url：链接的url地址
+    * webview_error：网页打开失败的原因
     * 当前页面的标题路径
     ***
     
