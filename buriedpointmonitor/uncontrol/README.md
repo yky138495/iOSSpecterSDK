@@ -2,6 +2,6 @@
 
 1. [页面停留事件](pageduration.md)
 2. [自动埋点事件](autoevent.md)
-3. [首次启动App事件](uitableview.md)
+3. [首次启动App事件](firstopenapp.md)
 4. [集合控件UICollectionView](uicollectionview.md)
 
