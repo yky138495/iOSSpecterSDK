@@ -1,6 +1,6 @@
 # 控件类型的埋点监控描述三
 
-3. 表格控件UITableView
+3.表格控件UITableView
  * 上报的字段名称
     * event_name：事件名称，没有圈选名称为sdk默认为ios_event_uitableview；圈选后名称为自定义名称
     * path：截屏数据结构中包含该值
