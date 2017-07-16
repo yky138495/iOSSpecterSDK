@@ -24,5 +24,4 @@
     * event_type：ui_control
     ***
     
-2. 文本输入框控件UITextField
  
