@@ -2,7 +2,7 @@
 
 2. 文本输入框控件UITextField
  * 上报的字段名称
-    * event_name：事件名称，没有圈选名称为sdk默认为ios_event_uitextfield；圈选后名称为自定义名称
+    * event_name：事件名称，没有圈选名称为sdk默认为ios_event_uitextfield；圈选后名称为自定义名称。
     * path：截屏数据结构中包含该值
     * event_type：ui_control
     * position_x：触摸位置的X坐标
