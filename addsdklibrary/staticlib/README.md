@@ -4,8 +4,8 @@
 > 需要libSpecter.a库、SpecterBundle.bundle和对应的.h文件
 
 # 配置静态库文件
-> 通过.a库文件、.bundle资源文件和include目录下的.h文件进行引用
+> 通过.a库文件、.bundle资源文件进行引用
 
 # 配置头文件
-> 通过.a库文件、.bundle资源文件和include目录下的.h文件进行引用
+> 通过include目录下的.h文件进行引用
 
