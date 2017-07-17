@@ -44,3 +44,4 @@
       * 2.[自动埋点事件](buriedpointmonitor/uncontrol/autoevent.md)
       * 3.[首次启动App事件](buriedpointmonitor/uncontrol/firstopenapp.md)
       * 4.[App崩溃事件](buriedpointmonitor/uncontrol/exceptionevent.md)
+  * [常见问题](question/README.md)
